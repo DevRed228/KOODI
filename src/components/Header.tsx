@@ -45,6 +45,12 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
+            <a
+              href="/admin"
+              className="hidden md:flex items-center space-x-2 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-lg transition-colors text-sm font-medium"
+            >
+              Admin
+            </a>
             <button className="hidden md:flex items-center space-x-2 bg-white/20 hover:bg-white/30 text-white px-4 py-2 rounded-lg transition-colors">
               <Heart className="h-4 w-4" />
               <span className="text-sm font-medium">Favoris</span>
